@@ -1,0 +1,54 @@
+
+body{
+    background-image: url(./img/station.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Roboto;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    height: 100vh;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.count-container{
+    background-color: rgba(255,255,255,0.60);
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px  hsla(0, 0%, 0%, 0.50);
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+button {
+    border: 1px solid rgba(0, 0, 0, 0.693);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#increment-btn {
+    background: rgb(34, 40, 167);
+}
+
+#save-btn {
+    background: #1c7947;
+}
+#save-el{
+    font-weight: bolder;
+}
+
